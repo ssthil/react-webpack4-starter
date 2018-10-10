@@ -1,5 +1,6 @@
-# Project Title
-React and webpack starter kit
+# React and webpack starter kit
+
+Create react app with webpack 4 and latest babel config. This is a very basic starter kit to setup the React app
 
 ## Project description
 Simple boilerplate for ```React + webpack 4```
