@@ -13,7 +13,7 @@ We need to install webpack as a **dev dependency** and webpack-cli
 
 Install react and react-dom as a **dependency**
 
-Then install babel-core, babel-loader, babel-preset-env and babel-preset-react as a **dev dependency**
+Then install babel as a **dev dependency**
 
 ```mkdir react-webpack-starter && cd $_ && yarn init -y && yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react babel-loader html-webpack-plugin --dev && yarn add react react-dom && touch webpack.config.js .babelrc README.md .gitignore && mkdir src && cd $_ && touch index.js index.html```
 
@@ -61,7 +61,7 @@ index.html with ```id="app"```
 ### Step 5
 In ```index.js```
 
-``
+```
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -72,9 +72,8 @@ const App = () => {
     </div>
   )
 }
-
 const SelectorRef = document.getElementById("app");
-// finally
+
 ReactDOM.render(<App />, SelectorRef);
-``
+```
 
