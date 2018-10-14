@@ -1,12 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// Import resources
+import React from "react";
+import ReactDOM from "react-dom";
 
-const App = () => {
-  return(
-    <div>
-      <h1>Hello React</h1>
-    </div>
-  )
+class App extends React.Component {
+  
+  render() {
+    return (
+      <div className="container">
+        <h1>Hello React</h1>
+      </div>
+    );
+  }
 }
 
 const SelectorRef = document.getElementById("app");
