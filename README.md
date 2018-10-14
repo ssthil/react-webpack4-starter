@@ -77,4 +77,7 @@ const SelectorRef = document.getElementById("app");
 
 ReactDOM.render(<App />, SelectorRef);
 ```
+## Added bootstrap and dependency loaders
+
+Branch name is ``add-bootstrap-dependency``
 
