@@ -1,7 +1,9 @@
 // Import resources
 import React from "react";
 import ReactDOM from "react-dom";
-
+// components
+import Counter from "./components/Counter";
+import Button from "./components/Button";
 // Import bootstrap css
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,7 +13,10 @@ class App extends React.Component {
     return (
       <div className="container">
         <h1>Hello React</h1>
-        <button className="btn btn-info">Bootstrap 4 button</button>
+        <hr/>
+        <Button className="btn btn-success"/>
+        <hr/>
+        <Counter />
       </div>
     );
   }
