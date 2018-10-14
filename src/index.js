@@ -2,12 +2,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// Import bootstrap css
+import "bootstrap/dist/css/bootstrap.min.css";
+
 class App extends React.Component {
   
   render() {
     return (
       <div className="container">
         <h1>Hello React</h1>
+        <button className="btn btn-info">Bootstrap 4 button</button>
       </div>
     );
   }
