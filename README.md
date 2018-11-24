@@ -78,3 +78,12 @@ const SelectorRef = document.getElementById("app");
 ReactDOM.render(<App />, SelectorRef);
 ```
 
+### Step 6
+add below code in the `package.json`
+
+```
+"scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  }
+ ```
