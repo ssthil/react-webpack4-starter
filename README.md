@@ -16,6 +16,27 @@ Install react and react-dom as a **dependency**
 
 Then install babel as a **dev dependency**
 
+##### create dir
+```mkdir react-webpack-starter```
+
+##### into the dir
+```cd react-webpack-starter```
+
+##### initialize
+```yarn init -y```
+
+##### install dependencies
+```yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react babel-loader html-webpack-plugin --dev```
+
+#### install dev dependencies
+```yarn add react react-dom && touch webpack.config.js .babelrc README.md .gitignore```
+
+#### create dir src and files
+```mkdir src && cd $_ && touch index.js index.html```
+
+
+## OR - single command to run everything
+
 ```mkdir react-webpack-starter && cd $_ && yarn init -y && yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react babel-loader html-webpack-plugin --dev && yarn add react react-dom && touch webpack.config.js .babelrc README.md .gitignore && mkdir src && cd $_ && touch index.js index.html```
 
 ### Step 2
