@@ -25,10 +25,10 @@ Then install babel as a **dev dependency**
 ##### initialize
 ```yarn init -y```
 
-##### install dependencies
+##### install dev dependencies
 ```yarn add webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react babel-loader html-webpack-plugin --dev```
 
-#### install dev dependencies
+#### install dependencies
 ```yarn add react react-dom && touch webpack.config.js .babelrc README.md .gitignore```
 
 #### create dir src and files
