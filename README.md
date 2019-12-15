@@ -7,7 +7,7 @@ and, moreover this is a very basic starter kit to setup the React app
 
 Simple boilerplate for `React + webpack 4`
 
-## Cloning and Running the Application in local
+### Cloning and Running the Application in local
 
 Clone repository:
 `git clone https://github.com/ssthil/react-webpack4-starter.git`
@@ -18,6 +18,10 @@ in order to run the application, run the below command
 `yarn start` or `nom start`
 
 The project will be running at `http://localhost:8080/`
+
+## OR
+
+Let's start from the following steps ...
 
 ### Step 1
 
