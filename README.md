@@ -1,4 +1,4 @@
-# React and webpack starter kit
+# React app - starter kit
 
 This repo will help to create a react app with webpack 4 and latest babel config
 and, moreover this is a very basic starter kit to setup the React app
