@@ -7,7 +7,7 @@ and, moreover this is a very basic starter kit to setup the React app
 
 Simple boilerplate for `React + webpack 4`
 
-### Cloning and Running the Application in local
+### Clone the repo and run the application in local
 
 Clone repository:
 `git clone https://github.com/ssthil/react-webpack4-starter.git`
